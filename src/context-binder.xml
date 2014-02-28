@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context-binder>
+    <context path="/hello-world" class="moca.user_center.feature.hello_world.http_handler.HelloWorldHttpHandler" />
+    <context path="/register" class="moca.user_center.feature.user.http_handler.RegisterHttpHandler" />
+    <context path="/verify" class="moca.user_center.feature.user.http_handler.VerifyHttpHandler" />
+</context-binder>
